@@ -1,6 +1,5 @@
 import  time
 
-
 def endpoint(route):
     print(f" >> response {route}")
 
