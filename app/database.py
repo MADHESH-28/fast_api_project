@@ -1,6 +1,6 @@
 import json
 
-
+#before
 shipments={}
 print("before load:",shipments)
 
@@ -15,3 +15,5 @@ print("after load:",shipments)
 def save():
     with open("shipments.json","w") as json_file:
         json.dump(list(shipments.values()),json_file)
+
+
