@@ -1,0 +1,40 @@
+[{
+  "id": 12701,
+  "weight": 9.6,
+  "content": "glasswar",
+  "destination":11002,
+  "status": "placed"
+},
+  {
+    "id": 12702,
+    "weight": 0.1,
+    "content": "table",
+    "destination":11003,
+    "status":"out_for_delivery"
+  },
+  {
+    "id": 12703,
+    "weight": 20,
+    "content": "cloths",
+    "destination":11004,
+    "status": "placed"
+  },
+  {
+    "id": 12704,
+    "weight": 0.11,
+    "content": "wood",
+    "destination":11005,
+    "status": "out_for_delivery"
+  },
+  {
+    "id": 12705,
+    "content": "plan trees",
+    "weight": 8.0,
+    "destination": 11006,
+    "status": "delivered"},
+  {
+    "id": 12706,
+    "content": "mobile",
+    "weight": 1.8,
+    "destination": 11007,
+    "status": "out_for_delivery"}]
