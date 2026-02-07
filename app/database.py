@@ -1,6 +1,6 @@
 import json
 
-#before
+
 shipments={}
 print("before load:",shipments)
 
