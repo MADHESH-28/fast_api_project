@@ -1,6 +1,5 @@
 
 from fastapi import FastAPI,HTTPException,status
-from scalar_fastapi import get_scalar_api_reference
 from typing import Any
 from database import shipments,save
 
@@ -84,9 +83,9 @@ def delete_shipment(id :int) -> dict[str ,str]:
 
 
 
-@app.get("/scalar",include_in_schema=False)
-def get_scalar_docs():
-    return get_scalar_api_reference(
-        openapi_url=app.openapi_url,
-        title="scalar API",
-    )
+# @app.get("/scalar",include_in_schema=False)
+# def get_scalar_docs():
+#     return get_scalar_api_reference(
+#         openapi_url=app.openapi_url,
+#         title="scalar API",
+#     )
